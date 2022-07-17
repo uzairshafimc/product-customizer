@@ -1,0 +1,39 @@
+.main-card {
+    border: 1px solid black;
+    width: 800px;
+    height: 413px;
+}
+
+.card-section { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.dragable-element { 
+    position: relative;
+}
+
+.sc-bczRLJ .gNmhIT {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.logo-img { 
+    width: 150;
+    height: 150;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.backgroud-img {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    margin: 0;
+}
