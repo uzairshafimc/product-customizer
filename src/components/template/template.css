@@ -87,8 +87,12 @@
 .input-div {
     position: relative;
 }
-.input-div input{
+.input-div input {
     width: 183px;
     margin-top: 48px;
     position: absolute;
+}
+
+.black-border {
+    border: 1px solid black;
 }

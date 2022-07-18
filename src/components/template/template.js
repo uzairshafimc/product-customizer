@@ -38,7 +38,7 @@ const Template = ({inputsData, selectElement, selectedElement, logoImg, bgImg}) 
     return (
         <div className="card-section">
             <h5>Design Your Card</h5>
-            <div className={`main-card backgroud-img ${selectedElement === "bg" ? "border-selected" : ""}`} style={{
+            <div className={`main-card backgroud-img ${selectedElement === "bg" ? "border-selected" : "black-border"}`} style={{
                 backgroundImage: `url(${bgImg})`}} >
                 <div className="layer" onClick={()=> {selectElement("bg")}}></div>
                 {
