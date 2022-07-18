@@ -1,7 +1,13 @@
 .main-card {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 800px;
     height: 413px;
+}
+
+.layer {
+    width: inherit;
+    height: inherit;
+    position: absolute;
 }
 
 .card-section { 
@@ -29,11 +35,60 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
+    border-radius: 50%;
 }
 
 .backgroud-img {
-    width: inherit;
-    height: inherit;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: center;
+}
+
+.border-selected {
+    border: 2px solid #3894f2 !important;
+}
+
+.logo-img img { 
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.imgup {
+    display: none;
+}
+
+.inactive .gblcbk {
+    border: 1px solid #3894f2 !important;
+    display: none;
+}
+
+.inactive .gblcbk .square {
+    border: 1px solid #3894f2 !important;
+    display: none;
+}
+
+.inactive .gblcbk .rotate i {
+    display: none;
+}
+
+.active .gblcbk {
+    border: 1px solid #3894f2 !important;
+}
+
+.active .gblcbk .square {
+    border: 1px solid #3894f2 !important;
+}
+
+.active .gblcbk .rotate i {
+    display: block;
+}
+
+.input-div {
+    position: relative;
+}
+.input-div input{
+    width: 183px;
+    margin-top: 48px;
     position: absolute;
-    margin: 0;
 }
