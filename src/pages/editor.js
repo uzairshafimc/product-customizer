@@ -29,16 +29,16 @@ const Editor = () => {
     }
 
     return (
-        <div className="main-editor">
+        <div className="main-editor m-5">
             <div className="row">
                 <div className="col-md-4">
                     <ManageInput setData={setInputsData}/>
                     <div className="btn-img">
                         <input type="file" className="imgup" id="imgupload" onChange={(e)=> {replaceImg(e)}} />
-                        <button>
+                        <button className="btn btn-primary ">
                         <label htmlFor='imgupload'><a id="OpenImgUpload">Replace Image</a></label>
                         </button>
-                        <button onClick={() => {removeImg()}}>Remove Image</button>
+                        <button className="btn btn-danger ml-5" onClick={() => {removeImg()}}>Remove Image</button>
                     </div>
                 </div>
                 <div className="col-md-8">

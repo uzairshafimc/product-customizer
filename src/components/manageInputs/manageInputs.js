@@ -47,7 +47,7 @@ const ManageInput = ({setData}) => {
                     })
                 }
             </div>
-            <button onClick={()=> {addInput()}}>New Text Field</button>
+            <button className="btn btn-primary m-2" onClick={()=> {addInput()}}>New Text Field</button>
         </div>
     )
 }
